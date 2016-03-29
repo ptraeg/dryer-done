@@ -1,0 +1,12 @@
+{
+  "devices": [
+    {
+      "id": "ABC123",
+      "vibeStatus": true,
+      "name": "Clothes Dryer",
+      "subscriptions": [
+      ],
+      "lastUpdated": "3/18/2016, 7:12:14 PM"
+    }
+  ]
+}

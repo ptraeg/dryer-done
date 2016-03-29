@@ -1,0 +1,8 @@
+{
+  "device": "ABC123",
+  "vibeStatus": true, 
+  "subscriptions": [
+    "123456",
+    "789012"
+  ]
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link rel="manifest" href="/manifest.json">
+    <meta name="viewport" content="width=device-width, initial-scale=1">    
+  </head>
+
+  <body>
+
+    <h1>Device Details: <%= device.name %></h1>    
+    <p><label>Device ID: </label><span id="deviceId"><%= device.id %></span></p>
+    <p><label>Vibration Status: </label><%= device.vibeStatus %></p>
+    <p><label>Last Updated: </label><%= device.lastUpdated %></p>
+
+    <div>
+      <button disabled>Subscribe</button>
+    </div>
+    
+    <script src="/js/main.js"></script>
+    
+  </body>
+
+</html>
